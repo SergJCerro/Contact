@@ -132,7 +132,8 @@
     </audio> -->
     <iframe
       src="https://cdn.glitch.me/e38d555b-ad1a-4fdc-942e-e427c8ec9dc9%2FHunter%E2%80%99s%20Moon%20(From%20HALLOWEEN%20KILLS)%20-%20Ghost.mp3?v=1633386179020"
-      allow="autoplay" loop
+      allow="autoplay"
+      loop
       style="display: none"
       id="iframeAudio"
     >
@@ -146,8 +147,10 @@
       var audio = document.getElementById("playAudio");
       audio.volume = 0.2;
       function myFunction() {
-        var x = document.querySelctor("playAudio").autoplay;
+        var x = document.getElementById("playAudio").autoplay;
       }
+      var audio1 = document.getElementById("iframeAudio");
+      audio1.volume = 0.1;
     </script>
     <script src="script.js"></script>
   </body>
