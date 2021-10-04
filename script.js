@@ -12,12 +12,3 @@ function log() {
   const date = new Date();
   document.querySelector("#year").innerHTML = date.getFullYear();
   // document.querySelector("#LastUpdate").innerHTML = document.lastModified;
-  // var audio = document.getElementById("myaudio");
-  // audio.volume = 0.1;
-  // function myFunction() {
-  //   var x = document.querySelector('#myaudio').autoplay;
-  // }
-  var audio = document.getElementById("playAudio");
-  audio.volume = 0.1;
-  var audio1 = document.getElementById("iframeAudio");
-  audio1.volume = 0.1;
