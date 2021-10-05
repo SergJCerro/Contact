@@ -41,5 +41,12 @@
       height: 110vh;
     }
 }
-
+@media only screen and (-webkit-min-device-pixel-ratio: 2.75) {
+  .container{
+    height: 110vh;
+  }
+  .card{
+    height: 110vh;
+  }
+}
 
