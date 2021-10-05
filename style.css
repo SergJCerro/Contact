@@ -48,7 +48,7 @@ img {
   opacity: 0;
   animation: LineFadeIn 0.8s 0.8s forwards ease-in;
 }
-.card__image {
+.card__image, .social-icons , #owner {
   opacity: 0;
   animation: ImageFadeIn 0.8s 1.4s forwards;
 }
