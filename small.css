@@ -1,8 +1,34 @@
-/* @media screen and (max-width:400px) {
+@media screen and (max-width:400px) {
     .container{
         height: 120vh;
       }
       .card{
         height: 120vh;
       }
-} */
+}
+@media screen and (max-width:350px) {
+  .container{
+      height: 120vh;
+    }
+    .card{
+      height: 120vh;
+    }
+}
+@media screen and (max-width:300px) {
+  .container{
+      height: 115vh;
+    }
+    .card{
+      height: 115vh;
+    }
+}
+@media screen and (max-width:250px) {
+  .container{
+      height: 110vh;
+    }
+    .card{
+      height: 110vh;
+    }
+}
+
+
