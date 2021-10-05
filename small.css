@@ -43,10 +43,10 @@
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2.75) {
   .container{
-    height: 110vh;
+    height: 90vh;
   }
   .card{
-    height: 110vh;
+    height: 90vh;
   }
 }
 
