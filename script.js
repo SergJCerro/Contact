@@ -11,4 +11,4 @@ function log() {
   log();
   const date = new Date();
   document.querySelector("#year").innerHTML = date.getFullYear();
-  // document.querySelector("#LastUpdate").innerHTML = document.lastModified;
+  document.querySelector("#LastUpdate").innerHTML = document.lastModified;
